@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a .btn {
+	color: #b0ac9c;
+}
+
+.container {
+	width: 1170px;
+	margin: auto;
+	padding-left: 110px;
+	padding-right: 110px;
+}
+
+.thumbNails {
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.news {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.woman {
+	display: inline-block;
+	width: 33.3%;
+}
+
+.girl1 img, .girl2 img, .girl3 img {
+	width: 100%;
+	height: auto;
+}
+
+.girl1 {
+	padding-right: 20px;
+}
+
+.girl2 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.girl3 {
+	padding-left: 20px;
+}
+
+.word {
+	font-size: 14px;
+	text-align: center;
+}
+
+.text {
+	padding-top: 30px;
+}
+
+.cost {
+	padding-top: 16px;
+}
+
+.cost span {
+	text-decoration: line-through;
+}
+
+.btn {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 17px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	color: #b0ac9c;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #b0ac9c;
+}
+
+.key {
+	padding-top: 30px;
+	text-align: center;
+}
