@@ -3,7 +3,6 @@
 }
 
 body {
-	/*font-size: 0;*/
 	margin: 0;
 	font-family: 'PT sans', arial, sans-serif; 
 	text-transform: uppercase;
@@ -22,8 +21,8 @@ a {
 .container {
 	max-width: 1170px;
 	min-width: 320px;
-	padding-left: 110px;
-	padding-right: 110px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin: 0 auto;
 }
 
@@ -48,7 +47,9 @@ a {
 	width: 33.3%;
 }
 
-.girl1 img, .girl2 img, .girl3 img {
+.girl1 img, 
+.girl2 img, 
+.girl3 img {
 	width: 100%;
 	height: auto;
 }
@@ -123,7 +124,7 @@ h2 {
 	margin: auto;
 	width: 100%;
 	height: 30px;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center;
 	letter-spacing: 10px;
 }
@@ -131,9 +132,12 @@ h2 {
 /*----- footer -----*/
 
 .footer {
-	/*padding-top: 30px;
-	padding-bottom: 25px;
-	background-color: #000;*/
+	background-color: #000;
+}
+
+.footer__menu {
+	padding-top: 20px;
+	text-align: center;
 }
 
 .footer__left {
@@ -153,10 +157,18 @@ ul {
 }
 
 .footer_lower {
+	font-size: 18px;
 	text-transform: none;
 }
 
+.footer_part1, 
+.footer_part2, 
+.footer_part3 {
+	font-size: 18px;
+}
+
 .footer__right {
+	padding-top: 25px;
 }
 
 .footer__cp {
@@ -173,11 +185,17 @@ span {
 
 /*----- footer -----*/
 
+.footer {
+	padding-bottom: 55px;
+}
+
 .btn {
 	display: inline-block;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	font-size: 12px;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-size: 18px;
 	color: #fff;
 	text-decoration: none;
 	border: 1px solid;
@@ -208,24 +226,27 @@ span {
 	padding-right: 54px;
 }
 
+h2 {
+	font-size: 24px;
+}
+
 .footer {
 	padding-top: 35px;
-	padding-bottom: 55px;
 	background-color: #000;
 }
 
-.footer_part1, .footer_part2, .footer_part3 {
-	font-size: 18px;
+.footer__menu {
+	text-align: left;
 }
 
 .footer__right {
 	float: right;
+	padding-top: 0;
 }
 
 .btn {
 	padding-left: 15px;
 	padding-right: 15px;
-	font-size: 18px;
 }
 
 .footer__cp {
@@ -241,11 +262,6 @@ span {
 @media screen and (min-width: 768px) {
 
 
-.container {
-	padding-left: 80px;
-	padding-right: 80px;
-}
-
 .footer {
 	padding-top: 35px;
 	padding-bottom: 25px;
@@ -255,7 +271,9 @@ span {
 	width: 65%;
 }
 
-.footer_part1, .footer_part2, .footer_part3 {
+.footer_part1,
+.footer_part2,
+.footer_part3 {
 	float: left;
 	width: 33.3%;
 	font-size: 12px;
@@ -267,7 +285,6 @@ span {
 
 .footer__right {
 	float: right;
-	width: 22%;
 }
 
 .btn {
@@ -285,15 +302,9 @@ span {
 
 @media screen and (min-width: 992px) {
 
-.container {
-    padding-left: 95px;
-    padding-right: 95px;
+.footer__left {
+	width: 75%;
 }
-
-.footer__right {
-	width: 22%;
-}
-
 
 }
 
@@ -302,17 +313,12 @@ span {
 
 @media screen and (min-width: 1200px) {
 
-.container {
-    padding-left: 110px;
-    padding-right: 110px;
-}
-
 .sectionSale {
 	margin-bottom: 70px;
 }
 
-.footer__right {
-	width: 14%;
+.footer__left {
+	width: 70%;
 }
 
 }
