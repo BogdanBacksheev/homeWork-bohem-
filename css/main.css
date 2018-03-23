@@ -12,6 +12,22 @@ a {
 	color: #000;
 }
 
+a:hover {
+	color: #aaa2a2;
+}
+
+.footer__item a:hover {
+	color: #aaa2a2;
+}
+
+.footer__cp a:hover {
+	color: #aaa2a2;
+}
+
+.btn_thb:hover {
+	color: #000;
+}
+
 .clearfix:after {
 	display: table;
 	content: ' ';
@@ -35,16 +51,11 @@ a {
 	margin-bottom: 45px;
 }
 
-.news {
-	padding-top: 30px;
-	padding-bottom: 30px;
+.news__above {
+	padding-top: 15px;
+	padding-bottom: 15px;
 	font-size: 18px;
 	text-align: center;
-}
-
-.women {
-	display: inline-block;
-	width: 33.3%;
 }
 
 .girl1 img, 
@@ -78,6 +89,7 @@ a {
 
 .cost {
 	padding-top: 16px;
+	padding-bottom: 16px;
 }
 
 .cost span {
@@ -132,6 +144,7 @@ h2 {
 /*----- footer -----*/
 
 .footer {
+	padding-bottom: 55px;
 	background-color: #000;
 }
 
@@ -171,6 +184,18 @@ ul {
 	padding-top: 25px;
 }
 
+.btn {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+}
+
 .footer__cp {
 	padding-top: 25px;
 }
@@ -181,24 +206,6 @@ ul {
 
 span {
 	color: #fff;
-}
-
-/*----- footer -----*/
-
-.footer {
-	padding-bottom: 55px;
-}
-
-.btn {
-	display: inline-block;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 17px;
-	padding-right: 17px;
-	font-size: 18px;
-	color: #fff;
-	text-decoration: none;
-	border: 1px solid;
 }
 
 
@@ -212,19 +219,15 @@ span {
 	height: auto;
 }
 
-.news__above {
-	font-size: 18px;
-	text-align: center;
-}
-
-.news {
-	display: none;
-}
-
 .container {
 	padding-left: 54px;
 	padding-right: 54px;
 }
+
+.women {
+	display: inline;
+}
+
 
 h2 {
 	font-size: 24px;
@@ -260,6 +263,11 @@ h2 {
 /*---------- 750 (768) -------------*/
 
 @media screen and (min-width: 768px) {
+
+.women {
+	display: inline-block;
+width: 33.3%;
+}
 
 
 .footer {
@@ -305,9 +313,7 @@ h2 {
 .footer__left {
 	width: 75%;
 }
-
 }
-
 
 /*---------- 1200 -------------*/
 
