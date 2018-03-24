@@ -47,35 +47,35 @@ a:hover {
 /*----- thumbNails -----*/
 
 .thumbNails {
+	margin-bottom: 45px;
 	font-size: 0;
 	text-transform: uppercase;
-	margin-bottom: 45px;
 }
 
-.news__above {
+.news {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	font-size: 18px;
 	text-align: center;
 }
 
-.girl1 img, 
-.girl2 img, 
-.girl3 img {
+.item1 img, 
+.item2 img, 
+.item3 img {
 	width: 100%;
 	height: auto;
 }
 
-.girl1 {
+.item1 {
 	padding-right: 20px;
 }
 
-.girl2 {
+.item2 {
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-.girl3 {
+.item3 {
 	padding-left: 20px;
 }
 
@@ -104,10 +104,10 @@ a:hover {
 	padding-right: 17px;
 	padding-top: 16px;
 	padding-bottom: 16px;
+	border: 1px solid #b0ac9c;
 	color: #b0ac9c;
 	font-size: 14px;
 	text-align: center;
-	border: 1px solid #b0ac9c;
 	text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ a:hover {
 	margin-bottom: 60px;
 }
 
-.woman {
+.sectionSale__item {
 	width: 100%;
 	height: auto;
 }
@@ -134,9 +134,9 @@ h2 {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	margin: auto;
 	width: 100%;
 	height: 30px;
+	margin: auto;
 	font-size: 20px;
 	text-align: center;
 	letter-spacing: 10px;
@@ -158,28 +158,25 @@ h2 a {
 
 .flexContainer {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
 }
 
 
 .flexContainer__item {
 	display: flex;
 	flex-direction: column;
-	text-align: center;
 }
 
 .flexContainer__part1,
 .flexContainer__part2,
 .flexContainer__part3 {
-	font-size: 14px;
 	display: flex;
+	font-size: 14px;
 	flex-direction: column;
 }
 
 .flexContainer__btn {	
 	padding-top: 20px;
-	display: flex;
-	justify-content: center;
 }
 
 .btn {
@@ -192,14 +189,15 @@ h2 a {
 }
 
 .flexFooter__cp {
-	padding-top: 20px;
 	display: flex;
+	padding-top: 20px;
 	justify-content: center;
 	font-size: 14px;
 	color: #fff;
 }
 
 .flexFooter__cp a {
+	padding-left: 4px;
 	text-decoration: underline;
 }
 
@@ -219,7 +217,7 @@ h2 a {
 	padding-right: 54px;
 }
 
-.women {
+.thumbNails__item {
 	display: inline;
 }
 
@@ -228,33 +226,26 @@ h2 {
 	font-size: 24px;
 }
 
-.flexContainer,
-.flexContainer__item {
-	flex-direction: column;
-}
-
-
 }
 
 /*---------- 750 (768) -------------*/
 
 @media screen and (min-width: 768px) {
 
-.women {
+.thumbNails__item {
 	display: inline-block;
-width: 33.3%;
+	width: 33.3%;
+	vertical-align: top;
 }
 
 .flexContainer {
 	display: flex;
-	flex-direction: row;
 }
 
 .flexContainer__item {
 	width: 70%;
-
-	flex-direction: row;
 	text-align: left;
+	flex-direction: row;
 	justify-content: space-between;
 }
 
@@ -268,10 +259,10 @@ width: 33.3%;
 
 .flexContainer__btn {
 	display: flex;
+	width: 30%;
 	padding-top: 0;
 	align-items: baseline;
 	justify-content: flex-end;
-	width: 30%;
 }
 
 .flexFooter__cp {
